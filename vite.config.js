@@ -18,5 +18,4 @@ export default defineConfig({
       },
     },
   },
-  // base: "https://cdn.jsdelivr.net/gh/Jisan-mia/logo-prticles/dist/",
 });
