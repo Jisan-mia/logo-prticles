@@ -45,7 +45,7 @@ export default function LogoParticles() {
 
   return (
     <ParticleImage
-      src={"/logo1.jpeg"}
+      src={"/logo.jpeg"}
       width={Number(innerWidth)}
       height={Number(innerHeight)}
       scale={0.75}
@@ -56,6 +56,14 @@ export default function LogoParticles() {
       touchMoveForce={motionForce}
       backgroundColor="transparent"
       className="logo-particle-container"
+      style={{
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        width: '100%',
+        height: '100%',
+        zIndex: 2
+      }}
     />
   );
 }
